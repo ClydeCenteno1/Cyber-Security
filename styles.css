@@ -1,0 +1,17 @@
+.nav-items{
+    transition: 1s;
+}
+
+.nav-items:hover{
+    text-decoration: 3px white underline !important;
+}
+
+
+.button {
+    display: inline-block;
+    transition: transform 0.3s, background-color 0.8s; 
+}
+.button:hover{
+    transform: scale(1.05) !important;
+    background-color: rgb(41, 41, 122);
+}
